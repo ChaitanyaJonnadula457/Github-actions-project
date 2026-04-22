@@ -1,5 +1,5 @@
 name: 04 - using-actions
-on: push
+on: workflow_dispatch
 jobs:
     build:
         defaults:
@@ -17,7 +17,6 @@ jobs:
               run: npm ci
             - name: run unit tests
               run: npm run test
-#1. Install dependencies of our application
-#2. Execute automated tests
+
 
 
