@@ -7,7 +7,6 @@ jobs:
         steps:
             - name: show os
               run: |
-                echo: "this job is running on ubuntu os"
-                echo: "Runner OS: $RUNNER_OS"
+                echo "this job is running on ubuntu os"
+                echo "Runner OS: $RUNNER_OS"
 
-                
