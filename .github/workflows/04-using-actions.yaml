@@ -6,10 +6,10 @@ jobs:
         runs-on: ubuntu-latest
         steps:
             - name: checkout code
-              uses: actions/checkour@v4
+              uses: actions/checkout@v4
             - name: printing folders
               run: ls
-              
+
 
 #1. Install dependencies of our application
 #2. Execute automated tests
